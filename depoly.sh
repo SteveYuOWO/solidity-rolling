@@ -2,7 +2,7 @@
 source .env
 
 # To deploy and verify our contract
-forge script script/3/Transfer.s.sol:TransferScript \
+forge script script/4/HuskyArt.s.sol:HuskyArtScript \
   --rpc-url $GOERLI_RPC_URL \
   --broadcast \
   --verify \
